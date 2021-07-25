@@ -5,6 +5,17 @@
         <hr class="style2">
         
         <div class="row">
+            <!-- Search input section -->
+        <div class="container-fluid search">
+          
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="text" placeholder="Repository" aria-label="Search" [(ngModel)]="reponame" name = "reponame" (keyup)= "searchRepo()">
+              <button class="btn btn-outline-info my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i>Search</button>
+            </form>
+            <p class="searchtext">Enter Repository name to search for github profile</p>
+          </div>
+          <!-- End of search input -->
+          
             </div>
             </div>
             </div>
