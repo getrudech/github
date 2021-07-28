@@ -1,0 +1,51 @@
+<br>
+
+<form style="text-align: center; font-family: Arial, Helvetica, sans-serif;" class='searchbox'>
+
+   <h1>
+    SEARCH FOR A USER
+   </h1>
+    
+    <br>
+
+    <input type="text" [(ngModel)]='userName'
+    name='userName'(keyup)='Profile()' class="Search">
+</form>
+
+<br>
+
+<div class="container" *ngIf='profile'>
+    <div class='card info'>
+        <div style="text-align: center; background-color: #04AA6D;"  class="card-header">
+            {{profile.login}}
+        </div>
+
+        <div class="card-body info">
+            <div class="row">
+                <div class="col-md-4">
+                    <img [src]='profile.avatar_url' [title]='profile.name' class="img-responsive profileimage">
+                </div>
+
+                <br>
+
+                <div class="col-md-8">
+                    <ul class="list-group">
+                        <li class="list-group-item"><b>Name: </b> {{profile.name}}</li>
+                        <li class="list-group-item"><b>Location: </b> {{profile.location}}</li>
+                        <li class="list-group-item"><b>Created: </b> {{profile.created_at | dateCount}}</li> 
+                    </ul>
+
+                    <br>
+
+                    <div class="stats">
+                        <button>{{profile.followers}} followers</button>
+                        <button>{{profile.following}} Following</button>
+                        <button>{{profile.public_repos}} Public Repos</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
