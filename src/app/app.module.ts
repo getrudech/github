@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DateCountPipe } from './date-count.pipe';
-import { HighlightDirective } from './highlight.directive'
+import { HighlightDirective } from './highlight.directive';
+import { RepoComponent } from './repo/repo.component'
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HighlightDirective } from './highlight.directive'
     UserComponent,
     DateCountPipe,
     HighlightDirective,
+    RepoComponent,
    
   ],
   imports: [
