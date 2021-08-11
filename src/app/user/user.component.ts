@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { UserService } from '../user.service'
-
+import { Repo } from '../repo';
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
@@ -31,6 +31,7 @@ export class UserComponent implements OnInit {
 
  ngOnInit(){
    this.Profile()
+   this.repos()
  }
 
 }
