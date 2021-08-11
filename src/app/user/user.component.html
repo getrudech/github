@@ -32,7 +32,7 @@
                     <ul class="list-group">
                         <li class="list-group-item"><b>Name: </b> {{profile.name}}</li>
                         <li class="list-group-item"><b>Location: </b> {{profile.location}}</li>
-                        <li class="list-group-item"><b>Created: </b> {{profile.created_at | dateCount}}</li> 
+                        <li class="list-group-item"><b>Created: </b> {{profile.created_at | slice :0:7}}</li> 
                     </ul>
 
                     <br>
