@@ -29,7 +29,7 @@ There are no known bugs. Contact me if you find.
 
 
 ## Live Website
-View the complete site [here]()
+View the complete site [here](https://getrudech.github.io/github/)
 
 ## Technologies Used
 It is built using Angular JS, HTML, Bootstrap.
@@ -37,7 +37,7 @@ The website uses components, custom directives, custom pipes, routing modules.
 The components in the application are:
 
 ## Contributors
- - Sophia Murage
+ - Getrude Cherono
 
 ## Development server
 
@@ -63,7 +63,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ---------
 ### MIT License
 
-Copyright (c) [2018] [Getrude Cherono]
+Copyright (c) [2021] [Getrude Cherono]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
