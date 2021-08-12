@@ -1,8 +1,7 @@
 # Github 
 
 This is the second Independent project for Moringa Core.
-The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
-
+The project was generated with [Angular CLI]
 ## Description
 Github Finder is a web application that uses the GitHub API to perform searches on GitHub and display the results to the user.
 
@@ -30,7 +29,7 @@ There are no known bugs. Contact me if you find.
 
 
 ## Live Website
-View the complete site [here](https://SophiaNM.github.io/GithubFinder/Github/)
+View the complete site [here]()
 
 ## Technologies Used
 It is built using Angular JS, HTML, Bootstrap.
@@ -64,7 +63,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ---------
 ### MIT License
 
-Copyright (c) [2018] [Sophia Njeri Murage]
+Copyright (c) [2018] [Getrude Cherono]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -86,8 +85,6 @@ SOFTWARE.
 
 
 ### Contact Information
-njerimurage92@gmail.com | snmurage1@gmail.com
+gcherono15@gmail.com
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
